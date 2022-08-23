@@ -1,7 +1,7 @@
 # KGE-DC
 This is the implementation code of KGE, Knowledge Graph Embedding-based framework for predicting the synergistic effects of Drug Combinations. The framework is consisted of three critical steps: (1) Construction of the knowledge graph based on the drug combinations’ synergy data and DrugBank data; (2) Simultaneously learns low-dimensional representations for the entities and relations through knowledge graph embedding, so that the complex semantic information of entities is extracted; (3) Integrating multimodal information to predict the synergy scores of drug combinations. 
 
-![the schematic of KGE-DC](./fig1.png)
+![the schematic of KGE-DC](.fig1.png)
 
 ## Requirements
 Python 3.8 or higher  
