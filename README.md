@@ -19,8 +19,11 @@ libkge
 
 ## Training
 python get_kgedc_loewe.py -lr1 0.01 -epochs1 300 -embedding_size 200  -lr2 0.01 -epochs2 500 -drop_out 0.2 -hidden 8192
+
 python get_kgedc_bliss.py -lr1 0.01 -epochs1 300 -embedding_size 200  -lr2 0.01 -epochs2 500 -drop_out 0.2 -hidden 8192
+
 python get_kgedc_zip.py -lr1 0.01 -epochs1 300 -embedding_size 200  -lr2 0.01 -epochs2 500 -drop_out 0.2 -hidden 8192
+
 python get_kgedc_hsa.py -lr1 0.01 -epochs1 300 -embedding_size 200  -lr2 0.01 -epochs2 500 -drop_out 0.2 -hidden 8192
 
 ## Default parameters of the scripts
