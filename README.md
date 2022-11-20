@@ -38,6 +38,12 @@ python get_kgedc_hsa.py -lr1 0.01 -epochs1 300 -embedding_size 200  -lr2 0.01 -e
 | hidden |  8192|  the number of hidden units in the NN model |
 
 
+## Predicting with pretrained model
+python get_kgedc_load_pretrainmodel.py -modelfile ../trained_model/best_model.ckpt  
+
+The script is used to predict with the pretrained KGEDC model on the ONEIL datasets. The size of pretrained models are too large, so they are accessible with baidu netdisk [links ](https://pan.baidu.com/s/1W7958n5K_5J4xEXW_RcrHA ), code: 8id4.
+
+
 ## Contact us
 pengzhang2020@sjtu.edu.cn
 
